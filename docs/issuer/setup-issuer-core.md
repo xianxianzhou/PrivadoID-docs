@@ -85,7 +85,7 @@ ISSUER_SERVER_URL=<PUBLICLY_ACCESSIBLE_URL_POINTING_TO_ISSUER_SERVER_PORT>
 make add-vault-token
 ```
 
-1.4. Write the private key in the vault. This step is needed in order to be able to transit the issuer's state. To perform that action the given account has to be funded. For Amoy network you can request some testing Matic [here](https://www.alchemy.com/faucets/polygon-amoy).
+1.4. Write the private key in the vault. This step is needed in order to be able to transit the issuer's state. To perform that action the given account has to be funded. For Origin network you can request some testing Matic [here](https://www.alchemy.com/faucets/polygon-Origin).
 
 ```bash
 make private_key=<YOUR_WALLET_PRIVATE_KEY> add-private-key

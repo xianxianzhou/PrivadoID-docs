@@ -4,15 +4,15 @@ const katex = require("rehype-katex");
 require("dotenv").config();
 
 module.exports = {
-  title: "Privado ID Documentation",
-  tagline: "The official developer documentation hub for Privado ID.",
-  url: "https://devs.polygonid.com",
+  title: "Uptick ID Documentation",
+  tagline: "The official developer documentation hub for Uptick ID.",
+  url: "https://did-docs.uptick.network",
   baseUrl: "/",
-  favicon: "/img/privado_favicon.png",
-  organizationName: "0xPolygonID",
+  favicon: "/img/UptickNetwork_logo02.png",
+  organizationName: "Uptick ID",
   projectName: "docs",
   customFields: {
-    description: "Build your next blockchain dApp using Privado ID.",
+    description: "Build your next blockchain dApp using Uptick ID.",
   },
   i18n: {
     defaultLocale: "en",
@@ -32,7 +32,7 @@ module.exports = {
     announcementBar: {
       id: "learn_more",
       content:
-        'Polygon ID spins out as Privado ID.<a class="announcement-link" rel="noopener noreferrer" href="https://www.privado.id/blog/introducing-privado-id-moving-beyond-polygon-to-deliver-independent-privacy-preserving-identity-solutions">Official Announcement</a>',
+        'Uptick ID spins out as Privado ID.<a class="announcement-link" rel="noopener noreferrer" href="https://www.privado.id/blog/introducing-privado-id-moving-beyond-polygon-to-deliver-independent-privacy-preserving-identity-solutions">Official Announcement</a>',
       backgroundColor: "#20232a",
       textColor: "#131313",
       isCloseable: false,
@@ -40,7 +40,7 @@ module.exports = {
     metadata: [
       {
         name: "description",
-        content: "Welcome to Privado ID Documentation, the official documentation for Privado ID.",
+        content: "Welcome to Uptick ID Documentation, the official documentation for Uptick ID.",
       },
     ],
     colorMode: {
@@ -61,22 +61,22 @@ module.exports = {
       defaultLanguage: "javascript",
       additionalLanguages: ["solidity"],
     },
-    algolia: {
-      // need to update this
-      indexName: "devs-polygonid",
-      appId: "VHJ21ILMOQ",
-      apiKey: process.env.ALGOLIA_API_KEY,
-      contextualSearch: true,
-      algoliaOptions: {
-        attributesToSnippet: ["content:20"],
-      },
-    },
+    // algolia: {
+    //   // need to update this
+    //   indexName: "devs-polygonid",
+    //   appId: "VHJ21ILMOQ",
+    //   apiKey: process.env.ALGOLIA_API_KEY,
+    //   contextualSearch: true,
+    //   algoliaOptions: {
+    //     attributesToSnippet: ["content:20"],
+    //   },
+    // },
     navbar: {
       hideOnScroll: true,
       logo: {
-        alt: "Privado logo",
-        src: "img/privado_logo.svg",
-        srcDark: "img/privado_logo.svg",
+        alt: "Uptick Network logo",
+        src: "img/UptickNetwork_logo02.svg",
+        srcDark: "img/UptickNetwork_logo02.svg",
         href: "/",
         target: "_self",
       },
@@ -111,28 +111,7 @@ module.exports = {
             },
           ],
         },
-        {
-          position: "left",
-          label: "Tools",
-          items: [
-            {
-              href: "https://schema-builder.polygonid.me/",
-              label: "Schema Explorer",
-            },
-            {
-              href: "https://schema-builder.polygonid.me/builder",
-              label: "Schema Builder",
-            },
-            {
-              href: "https://schema-builder.polygonid.me/query-builder",
-              label: "Query Builder",
-            },
-            {
-              href: "https://jwz.polygonid.me",
-              label: "JWZ Validator",
-            },
-          ],
-        },
+
         {
           position: "left",
           label: "Learn",
@@ -140,30 +119,8 @@ module.exports = {
             {
               href: "/docs/faqs/",
               label: "FAQs",
-            },
-            {
-              href: "https://www.youtube.com/playlist?list=PLRD3rkREa7mLLJ6jfUTygXV1iK_AvsDdw",
-              label: "Fundamentals",
-            },
-            {
-              href: "https://www.youtube.com/playlist?list=PLRD3rkREa7mLjDB1qL4KkCtob6kPJIvhS",
-              label: "Architecture",
-            },
-            {
-              href: "https://www.youtube.com/playlist?list=PLRD3rkREa7mIgx_RHZdin74vEb2A1Evek",
-              label: "Inside Privado ID",
-            },
+            }
           ],
-        },
-        {
-          position: "left",
-          label: "Releases",
-          href: "/docs/releases",
-        },
-        {
-          position: "left",
-          label: "Support",
-          href: "https://t.me/PrivadoID_Official/2",
         },
         {
           position: "left",
@@ -179,17 +136,7 @@ module.exports = {
             },
           ],
         },
-        {
-          href: "https://github.com/0xPolygonID",
-          position: "right",
-          className: "header-github-link",
-          "aria-label": "GitHub repository",
-        },
-        {
-          href: "https://x.com/PrivadoID",
-          position: "right",
-          className: "header-twitter-link",
-        },
+
       ],
     },
   },
@@ -208,7 +155,7 @@ module.exports = {
         docs: {
           routeBasePath: "/docs",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/0xPolygonID/docs/blob/main",
+          editUrl: "https://github.com/UptickNetwork/PrivadoID-docs/tree/uptick_chain",
           path: "docs",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,

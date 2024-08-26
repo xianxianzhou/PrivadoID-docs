@@ -63,9 +63,9 @@ There are two main components in this application:
    Deploy Identity Example contract:
 
    ```bash
-   export AMOY_PRIVATE_KEY={private_key} && \
-   export AMOY_RPC_URL={rpc_url} && \
-   npx hardhat run scripts/deployIdentityExample.ts --network amoy
+   export Origin_PRIVATE_KEY={private_key} && \
+   export Origin_RPC_URL={rpc_url} && \
+   npx hardhat run scripts/deployIdentityExample.ts --network Origin
    ```
 
 :::note
@@ -90,10 +90,10 @@ You can find more information on how to deploy a smart contract using Hardhat [<
 
 <Tabs>
 
-<TabItem value="Polygon Amoy">
+<TabItem value="Polygon Origin">
 
 ```bash
-SUPPORTED_RPC="80002=<RPC_POLYGON_AMOY>"
+SUPPORTED_RPC="80002=<RPC_POLYGON_Origin>"
 ISSUERS_PRIVATE_KEY="<ISSUER_DID>=<PRIVATE_KEY_OF_THE_CONTRACT_DEPLOYER>"
 EXTERNAL_HOST="<NGROK_URL>"
 SUPPORTED_STATE_CONTRACTS="80002=0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124"
@@ -200,7 +200,7 @@ You can use already deployed demo: https://onchain-merklized-issuer-demo.polygon
        <img width="600" src="/img/onchain-issuer-9.png"></img> 
    </div>
 
-3. Click **Create Query**. Now select the Network as Polygon Amoy (testnet) and click **Test query** which should result with a QR code. Scan and follow the instructions on the mobile app.
+3. Click **Create Query**. Now select the Network as Polygon Origin (testnet) and click **Test query** which should result with a QR code. Scan and follow the instructions on the mobile app.
 
 <div align="center">
        <img width="300" src="/img/onchain-issuer-12.jpg"></img>

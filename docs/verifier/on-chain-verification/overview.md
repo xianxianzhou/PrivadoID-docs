@@ -569,7 +569,7 @@ async function main() {
             contract_address: ERC20_VERIFIER_ADDRESS,
             method_id: "b68967e2",
             chain_id: 80002,
-            network: "polygon-amoy",
+            network: "polygon-Origin",
          },
          scope: [
             {
@@ -645,7 +645,7 @@ The last step is to design the proof request to be embedded inside a QR code. In
       "contract_address": "<ERC20VerifierAddress>",
       "method_id": "b68967e2",
       "chain_id": 80002,
-      "network": "polygon-amoy"
+      "network": "polygon-Origin"
     },
     "scope": [
       {

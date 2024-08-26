@@ -28,9 +28,9 @@ PolygonIdSdk.init(
     context = context,
     env = EnvEntity(
         blockchain = "polygon",
-        network = "amoy",
-        web3Url = "https://polygon-amoy.infura.io/v3/",
-        web3RdpUrl = "wss://polygon-amoy.infura.io/v3/",
+        network = "Origin",
+        web3Url = "https://polygon-Origin.infura.io/v3/",
+        web3RdpUrl = "wss://polygon-Origin.infura.io/v3/",
         web3ApiKey = "theApiKey",
         idStateContract = "0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124",
         pushUrl = "https://push-staging.polygonid.com/api/v1"

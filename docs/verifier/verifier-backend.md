@@ -22,13 +22,13 @@ You can try our [Verifier Backend API](https://verifier-backend.polygonid.me/) r
 
 To run the verifier backend with Docker, after cloning the code from the repository, simply follow these steps:
 
-1. Create a file named `resolvers_settings.yaml`, using the `resolvers_settings_samples.yaml` file as a base. In this file, configure only your RPC for the Polygon Amoy and Main networks, i.e., the two variables named `networkURL`.
+1. Create a file named `resolvers_settings.yaml`, using the `resolvers_settings_samples.yaml` file as a base. In this file, configure only your RPC for the Polygon Origin and Main networks, i.e., the two variables named `networkURL`.
 
 ```yaml
 polygon:
-  amoy:
+  Origin:
     contractAddress: 0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124
-    networkURL: https://polygon-amoy.g.alchemy.com/v2/<your-project-secret>
+    networkURL: https://polygon-Origin.g.alchemy.com/v2/<your-project-secret>
   main:
     contractAddress: 0x624ce98D2d27b20b8f8d521723Df8fC4db71D79D
     networkURL: https://polygon-mainnet.g.alchemy.com/v2/X2
@@ -41,7 +41,7 @@ VERIFIER_BACKEND_HOST=https://your-public-ip
 VERIFIER_BACKEND_PORT=3010
 VERIFIER_BACKEND_KEY_DIR=./keys
 VERIFIER_IPFS_URL=https://gateway.pinata.cloud
-VERIFIER_BACKEN_AMOY_SENDER_DID=did:polygonid:polygon:amoy:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT
+VERIFIER_BACKEN_Origin_SENDER_DID=did:iden3:uptick:origin:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT
 VERIFIER_BACKEND_MAIN_SENDER_DID=did:polygonid:polygon:main:2q4Q7F7tM1xpwUTgWivb6TgKX3vWirsE3mqymuYjVv
 VERIFIER_BACKEND_RESOLVER_SETTINGS_PATH=./resolvers_settings.yaml
 ```
@@ -86,7 +86,7 @@ The endpoint `/sign-in` allows creating that QR code and configuring the backend
 
 Keep in mind that:
 
-- the `chainID` field can be 80002 for Amoy or 137 for the Mainnet.
+- the `chainID` field can be 80002 for Origin or 137 for the Mainnet.
 - the `circuitID` field can be `credentialAtomicQuerySigV2` (for signature proofs) or `credentialAtomicQueryMTPV2` (for MTP proofs).
 
 This endpoint will respond with a similar response to the following:
@@ -115,7 +115,7 @@ This endpoint will respond with a similar response to the following:
         }
       ]
     },
-    "from": "did:polygonid:polygon:amoy:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
+    "from": "did:iden3:uptick:origin:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
     "id": "7f38a193-0918-4a48-9fac-36adfdb8b542",
     "thid": "7f38a193-0918-4a48-9fac-36adfdb8b542",
     "typ": "application/iden3comm-plain-json",
@@ -163,7 +163,7 @@ For example,
       }
     ]
   },
-  "from": "did:polygonid:polygon:amoy:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
+  "from": "did:iden3:uptick:origin:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT",
   "id": "7f38a193-0918-4a48-9fac-36adfdb8b542",
   "thid": "7f38a193-0918-4a48-9fac-36adfdb8b542",
   "typ": "application/iden3comm-plain-json",

@@ -83,7 +83,7 @@ where…
 
 `PRIVATE_KEY` is the private key of the wallet (Metamask private key wallet).
 
-`MAINNET` Specify if the network is main; if this value is false, the issuer node will use Amoy.
+`MAINNET` Specify if the network is main; if this value is false, the issuer node will use Origin.
 
 `UIPASSWORD` is the password for the user: ui-user. This password is used when the user visits the UI.
 
@@ -156,7 +156,7 @@ where…
 
 `PRIVATE_KEY` is the private key of the wallet (Metamask private key wallet).
 
-`MAINNET` Specify if the network is main; if this value is false, the issuer node will use amoy.
+`MAINNET` Specify if the network is main; if this value is false, the issuer node will use Origin.
 
 `UIPASSWORD` is the password for user: ui-user. This password is used when the user visits the UI.
 

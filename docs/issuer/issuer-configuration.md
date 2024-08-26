@@ -80,7 +80,7 @@ ISSUER_CREDENTIAL_STATUS_RHS_MODE=OnChain
 ```
 
 <Tabs>
-<TabItem value="Polygon Amoy">
+<TabItem value="Polygon Origin">
 
 ```bash
 ISSUER_CREDENTIAL_STATUS_ONCHAIN_TREE_STORE_SUPPORTED_CONTRACT=0x3d3763eC0a50CE1AdF83d0b5D99FBE0e3fEB43fb
@@ -121,12 +121,12 @@ Learn more about state contract [here](https://docs.iden3.io/contracts/state/).
 :::
 
 <Tabs>
-<TabItem value="Polygon Amoy">
+<TabItem value="Polygon Origin">
 
 ```bash
 ISSUER_ETHEREUM_CONTRACT_ADDRESS=0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124
-ISSUER_ETHEREUM_RESOLVER_PREFIX=polygon:amoy
-ISSUER_ETHEREUM_URL={Replace with a Polygon Amoy RPC}
+ISSUER_ETHEREUM_RESOLVER_PREFIX=polygon:Origin
+ISSUER_ETHEREUM_URL={Replace with a Polygon Origin RPC}
 ```
 
 </TabItem>
@@ -162,11 +162,11 @@ The DID configured for the UI or API-UI works under the following rules:
 .env-api
 
 <Tabs>
-<TabItem value="Polygon Amoy">
+<TabItem value="Polygon Origin">
 
 ```bash
 ISSUER_API_IDENTITY_BLOCKCHAIN=polygon
-ISSUER_API_IDENTITY_NETWORK=amoy
+ISSUER_API_IDENTITY_NETWORK=Origin
 ISSUER_API_IDENTITY_METHOD={polygonid | custom method}
 ```
 
@@ -220,14 +220,14 @@ The property _type_ can have two possible values:
 
 Create Identity Payload example:
 <Tabs>
-<TabItem value="Polygon Amoy">
+<TabItem value="Polygon Origin">
 
 ```json
 {
   "didMetadata": {
     "method": "polygonid",
     "blockchain": "polygon",
-    "network": "amoy",
+    "network": "Origin",
     "type": "BJJ"
   }
 }

@@ -87,12 +87,12 @@ function Footer() {
                 aria-current="page"
                 className="nav_logo-link is-footer w-nav-brand w--current"
               >
-                <img src="/img/privado_logo.svg" loading="lazy" width="113" height="36" alt="" />
+                <img src="/img/UptickNetwork_logo02.svg" loading="lazy" width="113" height="36" alt="" />
               </a>
 
               <div className="footer_sm-link-wrapper">
                 <a
-                  href="https://x.com/PrivadoID"
+                  href="https://x.com/uptickproject"
                   target="_blank"
                   className="w-inline-block"
                 >
@@ -112,7 +112,7 @@ function Footer() {
                   </div>
                 </a>
                 <a
-                  href="https://discord.com/channels/635865020172861441/1052090291743637504"
+                  href="https://discord.com/invite/teqX78VZUV"
                   target="_blank"
                   className="w-inline-block"
                 >
@@ -131,7 +131,7 @@ function Footer() {
                     </svg>
                   </div>
                 </a>
-                <a href="https://github.com/0xPolygonID" target="_blank" className="w-inline-block">
+                <a href="https://github.com/UptickNetwork/PrivadoID-docs/tree/uptick_chain" target="_blank" className="w-inline-block">
                   <div className="icon-1x1-medium is-footer-icon w-embed">
                     <svg
                       width="25"
@@ -149,48 +149,8 @@ function Footer() {
                     </svg>
                   </div>
                 </a>
-                <a
-                  href="https://www.linkedin.com/company/polygon-id"
-                  target="_blank"
-                  className="w-inline-block"
-                >
-                  <div className="icon-1x1-medium is-footer-icon w-embed">
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27V18.5Z"
-                        fill="currentcolor"
-                      ></path>
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  href="https://www.youtube.com/@polygonid"
-                  target="_blank"
-                  className="w-inline-block"
-                >
-                  <div className="icon-1x1-medium is-footer-icon w-embed">
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M12 4C12.855 4 13.732 4.022 14.582 4.058L15.586 4.106L16.547 4.163L17.447 4.224L18.269 4.288C19.161 4.35628 20.0004 4.73695 20.6395 5.36304C21.2786 5.98913 21.6764 6.82054 21.763 7.711L21.803 8.136L21.878 9.046C21.948 9.989 22 11.017 22 12C22 12.983 21.948 14.011 21.878 14.954L21.803 15.864C21.79 16.01 21.777 16.151 21.763 16.289C21.6764 17.1796 21.2784 18.0112 20.6391 18.6373C19.9999 19.2634 19.1602 19.6439 18.268 19.712L17.448 19.775L16.548 19.837L15.586 19.894L14.582 19.942C13.7218 19.9794 12.861 19.9987 12 20C11.139 19.9987 10.2782 19.9794 9.418 19.942L8.414 19.894L7.453 19.837L6.553 19.775L5.731 19.712C4.83895 19.6437 3.99955 19.2631 3.36047 18.637C2.72139 18.0109 2.32357 17.1795 2.237 16.289L2.197 15.864L2.122 14.954C2.04554 13.9711 2.00484 12.9858 2 12C2 11.017 2.052 9.989 2.122 9.046L2.197 8.136C2.21 7.99 2.223 7.849 2.237 7.711C2.32354 6.8207 2.72122 5.98942 3.36009 5.36334C3.99897 4.73727 4.83813 4.3565 5.73 4.288L6.551 4.224L7.451 4.163L8.413 4.106L9.417 4.058C10.2775 4.02063 11.1387 4.0013 12 4V4ZM10 9.575V14.425C10 14.887 10.5 15.175 10.9 14.945L15.1 12.52C15.1914 12.4674 15.2673 12.3916 15.3201 12.3003C15.3729 12.209 15.4007 12.1055 15.4007 12C15.4007 11.8945 15.3729 11.791 15.3201 11.6997C15.2673 11.6084 15.1914 11.5326 15.1 11.48L10.9 9.056C10.8088 9.00332 10.7053 8.9756 10.5999 8.97562C10.4945 8.97563 10.3911 9.00339 10.2998 9.0561C10.2086 9.1088 10.1329 9.1846 10.0802 9.27587C10.0276 9.36713 9.99993 9.47065 10 9.576V9.575Z"
-                        fill="currentcolor"
-                      ></path>
-                    </svg>
-                  </div>
-                </a>
+
+
               </div>
             </div>
             <div className="padding-bottom-huge"></div>
@@ -223,9 +183,6 @@ function Footer() {
                   ) : null}
                 </div>
               ))}
-            </div>
-            <div className="text--center" style={{ color: "#67666e" }}>
-              Copyright © {new Date().getFullYear()} | ZKID Labs AG.
             </div>
           </div>
           {isCookieConsentOpen && (

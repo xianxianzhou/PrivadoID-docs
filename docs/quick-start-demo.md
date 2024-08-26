@@ -2,10 +2,10 @@
 id: quick-start-demo
 title: Quick Start Demo
 sidebar_label: Quick Start Demo
-description: A quick demonstration of Privado ID's main features.
+description: A quick demonstration of Uptick ID's main features.
 keywords:
   - docs
-  - privado id
+  - Uptick ID
   - ID holder
   - issuer
   - verifier
@@ -16,7 +16,7 @@ keywords:
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This tutorial is a quick demonstration of some of Privado ID's main functionalities. To illustrate how Privado ID works, we will walk you through some of its products and tools by following along a simple POAP use case.
+This tutorial is a quick demonstration of some of Uptick ID's main functionalities. To illustrate how Uptick ID works, we will walk you through some of its products and tools by following along a simple POAP use case.
 POAP stands for Proof of Attendance Protocol, which is used to prove that someone has taken part in a given event.
 
 This guide will briefly touch on the 3 roles of the [Triangle of Trust](introduction.md#core-concepts-of-privado-id-verifiable-credentials-identity-holder-issuer-and-verifier), namely the Identity Holder, the Issuer and the Verifier. For that, we will take the case of an individual who needs to prove that they were able to participate in a particular event.
@@ -57,10 +57,10 @@ The process from downloading to creating an identity on the Polygon ID Wallet is
 
 :::caution
 
-This demo is using Polygon Amoy testnet. Go to the gear icon at the top right and ensure "Polygon Amoy network" is selected instead of "Polygon Main network".
+This demo is using Polygon Origin testnet. Go to the gear icon at the top right and ensure "Polygon Origin network" is selected instead of "Polygon Main network".
 
 <div align="center">
-    <img width="300" src={useBaseUrl("img/quick-start-demo/settings-amoy.jpg")}></img>
+    <img width="300" src={useBaseUrl("img/quick-start-demo/settings-Origin.jpg")}></img>
 </div>
 
 :::
@@ -88,7 +88,7 @@ To learn how to set up your own issuer environment by deploying an issuer node, 
 
 :::info
 
-The schema used in this demo was built using the Privado ID Schema Builder and is available on [<ins>the Privado ID Schema Explorer</ins>](https://schema-builder.polygonid.me/schemas/1fa99457-b2ae-4884-ae12-d658bd6abf69). Learn more about creating new schemas on [<ins>the Schema Builder UI guide</ins>](https://devs.polygonid.com/docs/issuer/schema-builder/).
+The schema used in this demo was built using the Uptick ID Schema Builder and is available on [<ins>the Uptick ID Schema Explorer</ins>](https://schema-builder.polygonid.me/schemas/1fa99457-b2ae-4884-ae12-d658bd6abf69). Learn more about creating new schemas on [<ins>the Schema Builder UI guide</ins>](https://devs.polygonid.com/docs/issuer/schema-builder/).
 
 :::
 
@@ -175,7 +175,7 @@ Here are the steps to verify the credential:
     <img width="600" src={useBaseUrl("img/quick-start-demo/verifier-query-2.png")}></img>
 </div>
 
-3. Click **Create Query**. Now select the Network as Polygon Amoy (testnet)
+3. Click **Create Query**. Now select the Network as Polygon Origin (testnet)
 
 <div align="center">
     <img width="600" src={useBaseUrl("img/quick-start-demo/verifier-query-3.png")}></img>
@@ -200,6 +200,6 @@ Here are the steps to verify the credential:
 
 :::info
 
-This was a quick demonstration of Privado ID's basic functionalities. However, Privado ID is far more complex than this. It offers a range of SSI-focused tools that allow for decentralized identity and verifiable credentials management.
+This was a quick demonstration of Uptick ID's basic functionalities. However, Uptick ID is far more complex than this. It offers a range of SSI-focused tools that allow for decentralized identity and verifiable credentials management.
 
 :::
