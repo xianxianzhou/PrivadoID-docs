@@ -5,7 +5,7 @@ sidebar_label: Verifier Backend API
 description: Verifier Backend API.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - ID holder
   - verifier
 ---
@@ -22,7 +22,7 @@ You can try our [Verifier Backend API](https://verifier-backend.polygonid.me/) r
 
 To run the verifier backend with Docker, after cloning the code from the repository, simply follow these steps:
 
-1. Create a file named `resolvers_settings.yaml`, using the `resolvers_settings_samples.yaml` file as a base. In this file, configure only your RPC for the Polygon Origin and Main networks, i.e., the two variables named `networkURL`.
+1. Create a file named `resolvers_settings.yaml`, using the `resolvers_settings_samples.yaml` file as a base. In this file, configure only your RPC for the Uptick Origin and Main networks, i.e., the two variables named `networkURL`.
 
 ```yaml
 polygon:
@@ -42,7 +42,7 @@ VERIFIER_BACKEND_PORT=3010
 VERIFIER_BACKEND_KEY_DIR=./keys
 VERIFIER_IPFS_URL=https://gateway.pinata.cloud
 VERIFIER_BACKEN_Origin_SENDER_DID=did:iden3:uptick:origin:2qH7TstpRRJHXNN4o49Fu9H2Qismku8hQeUxDVrjqT
-VERIFIER_BACKEND_MAIN_SENDER_DID=did:polygonid:polygon:main:2q4Q7F7tM1xpwUTgWivb6TgKX3vWirsE3mqymuYjVv
+VERIFIER_BACKEND_MAIN_SENDER_DID=did:polygonid:uptick:main:2q4Q7F7tM1xpwUTgWivb6TgKX3vWirsE3mqymuYjVv
 VERIFIER_BACKEND_RESOLVER_SETTINGS_PATH=./resolvers_settings.yaml
 ```
 
@@ -125,7 +125,7 @@ This endpoint will respond with a similar response to the following:
 }
 ```
 
-The value of the `qrCode` field is the one that should be displayed as a QR code to be scanned by the Polygon ID wallet.
+The value of the `qrCode` field is the one that should be displayed as a QR code to be scanned by the Uptick ID wallet.
 
 The `sessionID` should be used to check the status of the proof. To query the status of the proof, i.e., whether it was valid or not, you should call the endpoint `/status?sessionID=975903`.
 

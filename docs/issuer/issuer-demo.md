@@ -5,7 +5,7 @@ sidebar_label: Demo Issuer
 description: Demonstration of an Issuer.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer
   - claim
   - demo
@@ -15,10 +15,10 @@ The [Demo Issuer](https://issuer-demo.polygonid.me/) is a playground that allows
 
 ## Prerequisites
 
-Download the Polygon ID Wallet App and create an Identity.
+Download the Uptick ID Wallet App and create an Identity.
 
-- For Android: [Polygon ID on Google Play](https://play.google.com/store/apps/details?id=com.polygonid.wallet)
-- For iOS: [Polygon ID on the App Store](https://apps.apple.com/us/app/polygon-id/id1629870183)
+- For Android: [Uptick ID on Google Play](https://play.google.com/store/apps/details?id=com.polygonid.wallet)
+- For iOS: [Uptick ID on the App Store](https://apps.apple.com/us/app/polygon-id/id1629870183)
 
 ## Quick Start
 
@@ -26,7 +26,7 @@ To create a credential, you require a schema that contains semantics of the JSON
 
 For this tutorial, we will be using a customized Schema named `ProofOfDaoLongevity` that attests to someone's `entryDate` inside a DAO. You can find more info about that schema and how to [create a custom Schema](schema.md).
 
-To create a credential, the Polygon ID app must be installed on your mobile.
+To create a credential, the Uptick ID app must be installed on your mobile.
 
 1. On the [Issuer website](https://issuer-demo.polygonid.me/), click **Sign up**.
 
@@ -36,7 +36,7 @@ To create a credential, the Polygon ID app must be installed on your mobile.
 
    ![](/img/qr-code-display.png)
 
-2. Open the Polygon ID app and authenticate with PIN/Biometrics.
+2. Open the Uptick ID app and authenticate with PIN/Biometrics.
 
    ![](/img/authenticate.png)
 

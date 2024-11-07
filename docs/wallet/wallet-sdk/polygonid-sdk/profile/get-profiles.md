@@ -5,7 +5,7 @@ sidebar_label: Get Profiles
 description: Get Profiles API.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
@@ -13,7 +13,7 @@ keywords:
   - profile
 ---
 
-This method gets a map of profile nonces as key and profile DIDs as value, associated with the identity derived from the private key and stored in the Polygon ID SDK.
+This method gets a map of profile nonces as key and profile DIDs as value, associated with the identity derived from the private key and stored in the Uptick ID SDK.
 
 ```dart
   Future<Map<BigInt, String>> getProfiles(

@@ -5,7 +5,7 @@ sidebar_label: ZK Query Language
 description: Learn how to build verification requests with the ZK query language.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - verifier
   - on-chain
   - off-chain

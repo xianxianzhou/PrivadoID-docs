@@ -28,7 +28,7 @@ Every identity is identified by a unique identifier called [DID (Decentralized I
 
 :::note
 
-The toolset made available by  Uptick Uptick ID (0xPrivadoID) is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Polygon ID DID method</ins>](https://github.com/0xPolygonID/did-polygonid).
+The toolset made available by  Uptick Uptick ID (0xPrivadoID) is fully compliant with the W3C standards. We have a [<ins>definition spec. for the Uptick ID DID method</ins>](https://github.com/0xPolygonID/did-polygonid).
 
 :::
 
@@ -67,20 +67,20 @@ A [Wallet](./wallet/wallet-overview.md) plays a crucial role in the seamless exc
 
 <a href="https://iden3.io/" target="_blank">Iden3</a> is the open-source protocol at the basis of Uptick ID. The protocol defines on a low-level how the parties listed above communicate and interact with each other. Uptick ID is an abstraction layer to enable developers to build applications leveraging the Iden3 protocol.
 
-## Further Resources On Uptick ID (fork. Polygon ID)
+## Further Resources On Uptick ID (fork. Uptick ID)
 
-- [Polygon University - Courses on Polygon ID](https://university.polygon.technology/polygonid/)
-- [Polygon ID Youtube Playlists](https://www.youtube.com/@0xPolygonTV/playlists?view=50&sort=dd&shelf_id=5)
-- [Polygon ID DID Method Overview at SSI Meetup (April 2023)](https://ssimeetup.org/polygonid-zero-knowledge-identity-web2-web3-otto-mora-webinar-62/)
+- [Uptick University - Courses on Uptick ID](https://university.polygon.technology/polygonid/)
+- [Uptick ID Youtube Playlists](https://www.youtube.com/@0xPolygonTV/playlists?view=50&sort=dd&shelf_id=5)
+- [Uptick ID DID Method Overview at SSI Meetup (April 2023)](https://ssimeetup.org/polygonid-zero-knowledge-identity-web2-web3-otto-mora-webinar-62/)
 - [Adding Verifiable Credentials to your crypto wallet - Eth CC July 2023](https://www.youtube.com/watch?v=5fv8e-k8t98)
-- [The Future of Identity is Self-Sovereign: Build a dapp with Polygon ID - ETH Global - November 2022](https://youtu.be/utpazrLrSbY)
-- [A Deep Dive into Polygon ID - ETH Vietnam - November 2022](https://youtu.be/fQ9DiGUnvwA)
+- [The Future of Identity is Self-Sovereign: Build a dapp with Uptick ID - ETH Global - November 2022](https://youtu.be/utpazrLrSbY)
+- [A Deep Dive into Uptick ID - ETH Vietnam - November 2022](https://youtu.be/fQ9DiGUnvwA)
 - [Identity Layer for Web3 - Paris - July 2022](https://youtu.be/bmRvQNmxFkM)
 
 ## Further Resources On Verifiable Credentials
 
 - [Verifiable Credentials: The Ultimate Guide](https://www.dock.io/post/verifiable-credentials)
 - [Understanding and Using Verifiable Credentials](https://www.youtube.com/watch?v=BxLSSH_EHjo)
-- [Polygon ID DID Method Specification](https://github.com/0xPolygonID/did-polygonid)
+- [Uptick ID DID Method Specification](https://github.com/0xPolygonID/did-polygonid)
 
 ---

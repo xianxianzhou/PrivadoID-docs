@@ -5,7 +5,7 @@ sidebar_label: Configuration
 description: Issuer custom configuration.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - configuration
   - verifiable credentials
@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 This guide will show you how to configure your Issuer Node.
 
 :::caution
-\*Polygon Mumbai testnet has been deprecated
+\*Uptick Mumbai testnet has been deprecated
 :::
 
 ## Revocation Status
@@ -80,16 +80,16 @@ ISSUER_CREDENTIAL_STATUS_RHS_MODE=OnChain
 ```
 
 <Tabs>
-<TabItem value="Polygon Origin">
+<TabItem value="Uptick Origin">
 
 ```bash
 ISSUER_CREDENTIAL_STATUS_ONCHAIN_TREE_STORE_SUPPORTED_CONTRACT=0x3d3763eC0a50CE1AdF83d0b5D99FBE0e3fEB43fb
-ISSUER_CREDENTIAL_STATUS_RHS_CHAIN_ID=80002
+ISSUER_CREDENTIAL_STATUS_RHS_CHAIN_ID=1170
 ```
 
 </TabItem>
 
-<TabItem value="Polygon Main">
+<TabItem value="Uptick Main">
 
 ```bash
 ISSUER_CREDENTIAL_STATUS_ONCHAIN_TREE_STORE_SUPPORTED_CONTRACT=0xbEeB6bB53504E8C872023451fd0D23BeF01d320B
@@ -98,14 +98,6 @@ ISSUER_CREDENTIAL_STATUS_RHS_CHAIN_ID=137
 
 </TabItem>
 
-<TabItem value="Polygon Mumbai*">
-
-```bash
-ISSUER_CREDENTIAL_STATUS_ONCHAIN_TREE_STORE_SUPPORTED_CONTRACT=0x16A1ae4c460C0a42f0a87e69c526c61599B28BC9
-ISSUER_CREDENTIAL_STATUS_RHS_CHAIN_ID=80001
-```
-
-</TabItem>
 </Tabs>
 
 ## State Contract
@@ -121,22 +113,22 @@ Learn more about state contract [here](https://docs.iden3.io/contracts/state/).
 :::
 
 <Tabs>
-<TabItem value="Polygon Origin">
+<TabItem value="Uptick Origin">
 
 ```bash
 ISSUER_ETHEREUM_CONTRACT_ADDRESS=0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124
-ISSUER_ETHEREUM_RESOLVER_PREFIX=polygon:Origin
-ISSUER_ETHEREUM_URL={Replace with a Polygon Origin RPC}
+ISSUER_ETHEREUM_RESOLVER_PREFIX=uptick:Origin
+ISSUER_ETHEREUM_URL={Replace with a uptick Origin RPC}
 ```
 
 </TabItem>
 
-<TabItem value="Polygon Main">
+<TabItem value="Uptick Main">
 
 ```bash
 ISSUER_ETHEREUM_CONTRACT_ADDRESS=0x624ce98D2d27b20b8f8d521723Df8fC4db71D79D
-ISSUER_ETHEREUM_RESOLVER_PREFIX=polygon:main
-ISSUER_ETHEREUM_URL={Replace with a Polygon Main RPC}
+ISSUER_ETHEREUM_RESOLVER_PREFIX=uptick:main
+ISSUER_ETHEREUM_URL={Replace with a Uptick Main RPC}
 ```
 
 </TabItem>
@@ -162,35 +154,26 @@ The DID configured for the UI or API-UI works under the following rules:
 .env-api
 
 <Tabs>
-<TabItem value="Polygon Origin">
+<TabItem value="Uptick Origin">
 
 ```bash
-ISSUER_API_IDENTITY_BLOCKCHAIN=polygon
+ISSUER_API_IDENTITY_BLOCKCHAIN=uptick
 ISSUER_API_IDENTITY_NETWORK=Origin
-ISSUER_API_IDENTITY_METHOD={polygonid | custom method}
+ISSUER_API_IDENTITY_METHOD={iden3 | custom method}
 ```
 
 </TabItem>
 
-<TabItem value="Polygon Main">
+<TabItem value="Uptick Main">
 
 ```bash
-ISSUER_API_IDENTITY_BLOCKCHAIN=polygon
+ISSUER_API_IDENTITY_BLOCKCHAIN=uptick
 ISSUER_API_IDENTITY_NETWORK=main
-ISSUER_API_IDENTITY_METHOD={polygonid | custom method}
+ISSUER_API_IDENTITY_METHOD={iden3 | custom method}
 ```
 
 </TabItem>
 
-<TabItem value="Polygon Mumbai*">
-
-```bash
-ISSUER_API_IDENTITY_BLOCKCHAIN=polygon
-ISSUER_API_IDENTITY_NETWORK=mumbai
-ISSUER_API_IDENTITY_METHOD={polygonid | custom method}
-```
-
-</TabItem>
 </Tabs>
 
 Execute the following `make command` in order to generate a new DID with the .env-api provided `blockchain` ,`network` and `method`.
@@ -220,14 +203,14 @@ The property _type_ can have two possible values:
 
 Create Identity Payload example:
 <Tabs>
-<TabItem value="Polygon Origin">
+<TabItem value="Uptick Origin">
 
 ```json
 {
   "didMetadata": {
-    "method": "polygonid",
-    "blockchain": "polygon",
-    "network": "Origin",
+    "method": "iden3",
+    "blockchain": "uptick",
+    "network": "origin",
     "type": "BJJ"
   }
 }
@@ -235,13 +218,13 @@ Create Identity Payload example:
 
 </TabItem>
 
-<TabItem value="Polygon Main">
+<TabItem value="Uptick Main">
 
 ```json
 {
   "didMetadata": {
-    "method": "polygonid",
-    "blockchain": "polygon",
+    "method": "iden3",
+    "blockchain": "uptick",
     "network": "main",
     "type": "BJJ"
   }
@@ -250,18 +233,4 @@ Create Identity Payload example:
 
 </TabItem>
 
-<TabItem value="Polygon Mumbai*">
-
-```json
-{
-  "didMetadata": {
-    "method": "polygonid",
-    "blockchain": "polygon",
-    "network": "mumbai",
-    "type": "BJJ"
-  }
-}
-```
-
-</TabItem>
 </Tabs>

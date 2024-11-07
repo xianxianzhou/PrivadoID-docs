@@ -5,7 +5,7 @@ sidebar_label: Auth Requests
 description: The proof generation by the wallet SDK is based on two types of authorization requests sent by the Verifier.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

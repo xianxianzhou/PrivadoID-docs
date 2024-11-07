@@ -5,7 +5,7 @@ sidebar_label: Iden3comm
 description: Iden3comm components and capabilities.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

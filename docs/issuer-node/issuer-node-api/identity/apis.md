@@ -5,7 +5,7 @@ sidebar_label: Identity
 description: Identity API endpoints and their description.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials
@@ -14,7 +14,7 @@ keywords:
   - Identity
 ---
 
-The identity endpoint is used to create and retrieve identities for a user/issuer. Polygon ID supports the creation of identities in the form of DIDs (Decentralized Identifiers). A user can have multiple DIDs.
+The identity endpoint is used to create and retrieve identities for a user/issuer. Uptick ID supports the creation of identities in the form of DIDs (Decentralized Identifiers). A user can have multiple DIDs.
 
 :::note
 
@@ -41,8 +41,8 @@ An example of a `didMetaData` passed in the request body of the `Create Identity
 ```
 {
     "didMetadata":{
-        "method": "polygonid",
-        "blockchain":"polygon",
+        "method": "iden3",
+        "blockchain":"uptick",
         "network": "Origin",
         "type": "BJJ"
     }
@@ -52,17 +52,13 @@ An example of a `didMetaData` passed in the request body of the `Create Identity
 A few variations of the metadata can be:
 
 - method:
-
-  - "polygonid"
   - "iden3"
 
 - blockchain:
-
-  - "polygon"
+  - "uptick"
   - "eth"
 
 - network:
-
   - "main"
   - "Origin"
   - "unknown"

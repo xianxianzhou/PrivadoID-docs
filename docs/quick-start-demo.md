@@ -23,33 +23,33 @@ This guide will briefly touch on the 3 roles of the [Triangle of Trust](introduc
 
 These are the steps we will cover in this article:
 
-1. [Set up a Polygon ID wallet](#set-up-a-polygon-id-wallet)
+1. [Set up a Uptick ID wallet](#set-up-a-polygon-id-wallet)
 2. [Issue a new credential to attest to the ID Holder's attendance to the event](#issue-a-new-credential-to-attest-to-the-id-holders-event-attendance)
 3. [Fetch the newly created credential](#fetch-the-newly-created-credential)
 4. [Verify the credential validity](#verify-the-id-holder-credential)
 
-## Set up a Polygon ID wallet
+## Set up a Uptick ID wallet
 
-As an Identity Holder, the individual who wants to have a credential to prove his age, for example, will need an application that can hold their credentials. In our case, we will be using the Polygon ID Wallet.
-
-:::note
-
-You can also use any Polygon ID compatible wallet. Please, check our [<ins>Ecosystem page</ins>](https://marketplace.polygonid.me/ecosystem) for other options.
-
-:::
-
-To get started with the Polygon ID Wallet, download the Polygon ID Wallet App and create an Identity:
-
-- For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Polygon ID on Google Play</a>
-- For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Polygon ID on the App Store</a>
+As an Identity Holder, the individual who wants to have a credential to prove his age, for example, will need an application that can hold their credentials. In our case, we will be using the Uptick ID Wallet.
 
 :::note
 
-Polygon ID wallet is an implementation of the Wallet SDK, as a way of showcasing its possibilities. Head to [<ins>the Wallet SDK documentation</ins>](./wallet/wallet-sdk/polygonid-sdk/polygonid-sdk-overview.md) to know more about how it works.
+You can also use any Uptick ID compatible wallet. Please, check our [<ins>Ecosystem page</ins>](https://marketplace.polygonid.me/ecosystem) for other options.
 
 :::
 
-The process from downloading to creating an identity on the Polygon ID Wallet is just as it is shown below. You need to download the app, create a wallet, set up a PIN number and the wallet is ready to be used.
+To get started with the Uptick ID Wallet, download the Uptick ID Wallet App and create an Identity:
+
+- For Android: <a href="https://play.google.com/store/apps/details?id=com.polygonid.wallet" target="_blank">Uptick ID on Google Play</a>
+- For iOS: <a href="https://apps.apple.com/us/app/polygon-id/id1629870183" target="_blank">Uptick ID on the App Store</a>
+
+:::note
+
+Uptick ID wallet is an implementation of the Wallet SDK, as a way of showcasing its possibilities. Head to [<ins>the Wallet SDK documentation</ins>](./wallet/wallet-sdk/polygonid-sdk/polygonid-sdk-overview.md) to know more about how it works.
+
+:::
+
+The process from downloading to creating an identity on the Uptick ID Wallet is just as it is shown below. You need to download the app, create a wallet, set up a PIN number and the wallet is ready to be used.
 
 <div align="center">
     <img src={useBaseUrl("img/quick-start-demo/quick-start-demo-wallet.png")}></img>
@@ -57,7 +57,7 @@ The process from downloading to creating an identity on the Polygon ID Wallet is
 
 :::caution
 
-This demo is using Polygon Origin testnet. Go to the gear icon at the top right and ensure "Polygon Origin network" is selected instead of "Polygon Main network".
+This demo is using Uptick Origin testnet. Go to the gear icon at the top right and ensure "Uptick Origin network" is selected instead of "Polygon Main network".
 
 <div align="center">
     <img width="300" src={useBaseUrl("img/quick-start-demo/settings-Origin.jpg")}></img>
@@ -175,7 +175,7 @@ Here are the steps to verify the credential:
     <img width="600" src={useBaseUrl("img/quick-start-demo/verifier-query-2.png")}></img>
 </div>
 
-3. Click **Create Query**. Now select the Network as Polygon Origin (testnet)
+3. Click **Create Query**. Now select the Network as Uptick Origin (testnet)
 
 <div align="center">
     <img width="600" src={useBaseUrl("img/quick-start-demo/verifier-query-3.png")}></img>

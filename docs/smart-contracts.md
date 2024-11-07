@@ -2,15 +2,15 @@
 id: smart-contracts
 title: Smart Contracts
 sidebar_label: Smart Contracts
-description: Smart Contracts used by the Polygon ID solution.
+description: Smart Contracts used by the Uptick ID solution.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - smart
   - contract
 ---
 
-<a href="https://github.com/0xPolygonID/contracts" target="_blank">Polygon ID Smart Contracts - Github</a>
+<a href="https://github.com/0xPolygonID/contracts" target="_blank">Uptick ID Smart Contracts - Github</a>
 
 :::caution
 \*Polygon Mumbai testnet has been deprecated

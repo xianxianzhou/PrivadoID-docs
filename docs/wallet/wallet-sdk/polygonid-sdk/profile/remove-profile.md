@@ -5,7 +5,7 @@ sidebar_label: Remove Profile
 description: Remove Profile API.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
@@ -13,7 +13,7 @@ keywords:
   - profile
 ---
 
-This removes a profile from the identity derived from the private key and stored in the Polygon ID SDK.
+This removes a profile from the identity derived from the private key and stored in the Uptick ID SDK.
 
 ```dart
   Future<void> removeProfile(

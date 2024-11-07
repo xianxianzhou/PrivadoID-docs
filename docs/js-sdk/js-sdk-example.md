@@ -2,10 +2,10 @@
 id: js-sdk-example
 title: JS SDK Example
 sidebar_label: Example
-description: Steps to run different modules of the Polygon ID JS SDK with exampling code.
+description: Steps to run different modules of the Uptick ID JS SDK with exampling code.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
@@ -17,7 +17,7 @@ keywords:
 
 # JS SDK Example
 
-This tutorial shows the steps to run different modules of the Polygon ID JS SDK with exampling code. After the steps for each module, you will find a sample output which is generated when these modules are run.
+This tutorial shows the steps to run different modules of the Uptick ID JS SDK with exampling code. After the steps for each module, you will find a sample output which is generated when these modules are run.
 
 ## Steps to Run Example Code
 
@@ -43,7 +43,7 @@ We have created a [JS SDK Example repository](https://github.com/0xPolygonID/js-
 
    ```bash
    export WALLET_KEY="...key in hex format with matic balance"
-   export RPC_URL="...url to polygon Origin network rpc node"
+   export RPC_URL="...url to Uptick Origin network rpc node"
    export RHS_URL="..reverse hash service url"
    export CONTRACT_ADDRESS="..state v2 contract address in the Origin network"
    export CIRCUITS_PATH="..path to the circuits folder"
@@ -129,7 +129,7 @@ const { did, credential } = await wallet.createIdentity({
   seed: seedPhrase,
   revocationOpts: {
     type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-    id: "https://rhs-staging.polygonid.me",
+    id: "http://52.74.190.214:8080",
   },
 });
 ```
@@ -188,7 +188,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
      seed: seedPhraseIssuer,
      revocationOpts: {
        type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-       id: "https://rhs-staging.polygonid.me",
+       id: "http://52.74.190.214:8080",
      },
    });
    ```
@@ -204,7 +204,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
      seed: seedPhraseUser,
      revocationOpts: {
        type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-       id: "https://rhs-staging.polygonid.me",
+       id: "http://52.74.190.214:8080",
      },
    });
    ```
@@ -224,7 +224,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
      expiration: 12345678888,
      revocationOpts: {
        type: CredentialStatusType.Iden3ReverseSparseMerkleTreeProof,
-       id: "https://rhs-staging.polygonid.me",
+       id: "http://52.74.190.214:8080",
      },
    };
    const issuerCred = await wallet.issueCredential(issuerDID, claimReq);
@@ -255,7 +255,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
     "type": "JsonSchemaValidator2018"
   },
   "credentialStatus": {
-    "id": "https://rhs-staging.polygonid.me",
+    "id": "http://52.74.190.214:8080",
     "revocationNonce": 4303,
     "type": "Iden3ReverseSparseMerkleTreeProof"
   },
@@ -276,7 +276,7 @@ If we do not use `rhsUrl` within createIdentity() method, we get a `credentialSt
           "siblings": []
         },
         "credentialStatus": {
-          "id": "https://rhs-staging.polygonid.me",
+          "id": "http://52.74.190.214:8080",
           "revocationNonce": 0,
           "type": "Iden3ReverseSparseMerkleTreeProof"
         }

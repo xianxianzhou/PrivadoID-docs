@@ -16,7 +16,7 @@ What steps should I take if an error message says there's no identity found for 
 
 ```bash
 time=2023-11-27T12:29:51.334Z level=ERROR msg="error getting identity by DID" err="no rows in result set" did=did:iden3:uptick:origin:2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c
-time=2023-11-27T12:29:51.334Z level=ERROR msg="issuer DID must exist" did="{Method:polygonid ID:uptick:origin:2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c IDStrings:[polygon Origin 2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c] Params:[] Path: PathSegments:[] Query: Fragment:}"
+time=2023-11-27T12:29:51.334Z level=ERROR msg="issuer DID must exist" did="{Method:iden3 ID:uptick:origin:2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c IDStrings:[Uptick Origin 2qHm5f6GZsJdLxpmGNCnn6TckCJWzhGmUUWebpFy5c] Params:[] Path: PathSegments:[] Query: Fragment:}"
 ```
 
 ## Answer

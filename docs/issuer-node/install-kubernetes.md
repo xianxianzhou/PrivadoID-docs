@@ -5,7 +5,7 @@ sidebar_label: Using Kubernetes
 description: Learn how to install the Issuer Node using Kubernetes.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - ID holder
   - issuer
   - verifier

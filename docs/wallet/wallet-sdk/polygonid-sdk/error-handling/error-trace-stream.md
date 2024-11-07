@@ -5,7 +5,7 @@ sidebar_label: Error Trace Stream
 description: "Get the error stream to listen to it."
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

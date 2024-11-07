@@ -5,7 +5,7 @@ sidebar_label: Source Code
 description: Important library links.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials

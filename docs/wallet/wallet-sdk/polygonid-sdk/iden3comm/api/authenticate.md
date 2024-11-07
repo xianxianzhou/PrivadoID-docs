@@ -5,7 +5,7 @@ sidebar_label: Authenticate
 description: Iden3comm is the protocol that defines the set of rules and syntax of the data that needs to be communicated while interacting with an Issuer and a Verifier.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
@@ -54,7 +54,7 @@ Future<void> authenticate({
 
 An Integrator, to interact with an Issuer, needs to authenticate with it first.
 
-1.  On the Polygon ID app (which is based on SDK), an Integrator clicks **Connect**.
+1.  On the Uptick ID app (which is based on SDK), an Integrator clicks **Connect**.
 
 <div align="center">
 <img src={useBaseUrl("img/polygonid-wallet-connect.png")} width ="300" />

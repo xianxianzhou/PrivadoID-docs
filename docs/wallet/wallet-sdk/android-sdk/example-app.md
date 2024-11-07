@@ -5,7 +5,7 @@ sidebar_label: Example App
 description: Learn how to build an example app with the Android SDK.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - android sdk
   - wallet sdk
@@ -27,11 +27,11 @@ You can find an executable [example app](https://github.com/0xPolygonID/polygoni
 
 ### Overview
 
-In the upcoming sections, we shall see the general flow of how to use the Polygon ID SDK plugin. The steps are summarised as:
+In the upcoming sections, we shall see the general flow of how to use the Uptick ID SDK plugin. The steps are summarised as:
 
 A. [**Identity**](#a-identity)
 
-1. Initialize Polygon ID SDK.
+1. Initialize Uptick ID SDK.
 2. Create an Identity for the wallet.
 3. Retrieve Identifier from the Identity created in the previous step.
 4. Remove Identity (only if required).
@@ -50,9 +50,9 @@ C. **Proof**
 
 1. Generate zero-knowledge proof using iden3Message, Identifier, and Private Key.
 
-#### **_Initiate Polygon ID SDK_**
+#### **_Initiate Uptick ID SDK_**
 
-To start using Polygon ID SDK, an integrator needs to initialize it first. This is done by using:
+To start using Uptick ID SDK, an integrator needs to initialize it first. This is done by using:
 
 ```kotlin
 PolygonIdSdk.init(
@@ -93,7 +93,7 @@ PolygonIdSdk.getInstance().getIden3Message(
 
 ### **A. Identity**
 
-This part of the flow consists of initialising Polygon ID SDK, creating an identifier for an identity and retrieving it, and using the identifier to authenticate the Identity.
+This part of the flow consists of initialising Uptick ID SDK, creating an identifier for an identity and retrieving it, and using the identifier to authenticate the Identity.
 
 #### **_1. Create Identity_**
 

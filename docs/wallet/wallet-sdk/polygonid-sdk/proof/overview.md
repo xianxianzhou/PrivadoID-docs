@@ -5,7 +5,7 @@ sidebar_label: Overview
 description: Proof Generation API overview.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

@@ -5,7 +5,7 @@ sidebar_label: Browser Wallet Demo
 description: Check out a sample of a JS SDK browser application implementation.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
@@ -18,9 +18,9 @@ keywords:
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Demo for Polygon ID JS SDK Browser Wallet Extension
+## Demo for Uptick ID JS SDK Browser Wallet Extension
 
-Polygon ID has created a [sample browser wallet extension](https://github.com/0xPolygonID/extension-demo) based on our JS SDK that lets its user fetch credentials from an Issuer and generate proof for these credentials to be presented to a Verifier.
+Uptick ID has created a [sample browser wallet extension](https://github.com/0xPolygonID/extension-demo) based on our JS SDK that lets its user fetch credentials from an Issuer and generate proof for these credentials to be presented to a Verifier.
 
 You need to [manually install the browser wallet extension](https://github.com/0xPolygonID/extension-demo#how-deploy-project-as-chrome-extension) on your machine. This wallet works like a common crypto wallet such as the MetaMask Wallet but differs in functionality.
 
@@ -32,7 +32,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 
 ## Demo for JS SDK Browser Extension Wallet
 
-1. Install the Polygon ID JS SDK browser wallet extension on your machine and open it.
+1. Install the Uptick ID JS SDK browser wallet extension on your machine and open it.
 
 2. When you open the extension for the first time, it prompts you to create a new wallet or import an existing wallet. Click **Create a New Wallet**.
 
@@ -62,7 +62,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 </div>
 <br />
 
-6. A QR Code is displayed. Click on the **_Polygon ID_** icon to open your browser wallet.
+6. A QR Code is displayed. Click on the **_Uptick ID_** icon to open your browser wallet.
 
 <div align="center">
 <img src={useBaseUrl("img/qr-code-polygonid-symbol.png")} align="center" width="1000" />
@@ -112,7 +112,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 </div>
 <br />
 
-5. As the credential is now created, the user needs to fetch it to his/her browser wallet. The website displays the QR code. Click the **_Polygon ID_** icon to open your browser wallet. On the wallet, click **Receive**.
+5. As the credential is now created, the user needs to fetch it to his/her browser wallet. The website displays the QR code. Click the **_Uptick ID_** icon to open your browser wallet. On the wallet, click **Receive**.
 
    <div align="center">
    <img src={useBaseUrl("img/receive-claim.png")}  align="center" width="500" />
@@ -135,7 +135,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 </div>
 <br />
 
-2. Click **Sign In**. This shows the QR code for the credential type you selected in the step above. Click the **_Polygon ID_** icon to open your browser wallet.
+2. Click **Sign In**. This shows the QR code for the credential type you selected in the step above. Click the **_Uptick ID_** icon to open your browser wallet.
 
 <div align="center">
 <img src={useBaseUrl("img/qr-code-polygonid-symbol.png")} align="center" border="1" width="1000" />
@@ -170,7 +170,7 @@ Some of the content on this page is still to be updated. Please note that the "P
    </div>
    <br />
 
-   Scroll down the page to view **_Auth Response_**. Here, you can see the proof and the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Polygon ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
+   Scroll down the page to view **_Auth Response_**. Here, you can see the proof and the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Uptick ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
 
    <br />
 
@@ -206,7 +206,7 @@ Some of the content on this page is still to be updated. Please note that the "P
    <img src={useBaseUrl("img/credential-details.png")}  align="center" width="1000" />
    </div>
 
-8. Below the QR code, click the **_Polygon ID_** icon to open your browser wallet. On your wallet, click **Receive** to fetch and save the credential to your wallet.
+8. Below the QR code, click the **_Uptick ID_** icon to open your browser wallet. On your wallet, click **Receive** to fetch and save the credential to your wallet.
 
    <div align="center">
    <img src={useBaseUrl("img/receive-kycage-credential.png")} align="center" border="1" width="1000" />
@@ -228,7 +228,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 </div>
 <br />
 
-2. Click **Sign In**. This shows the QR code for the credential type you selected in the step above. Click the **_Polygon ID_** icon to open your browser wallet.
+2. Click **Sign In**. This shows the QR code for the credential type you selected in the step above. Click the **_Uptick ID_** icon to open your browser wallet.
 
 <div align="center">
 <img src={useBaseUrl("img/qr-code-polygonid-symbol.png")}  align="center" width="1000" />
@@ -252,7 +252,7 @@ Some of the content on this page is still to be updated. Please note that the "P
 
 5. On the Polygon Verify website, click **Auth Info** to view details of the **_Auth Request_** (authorization requested by the user).
 
-   Scroll down the page to view **_Auth Response_**. Here, you can see the proof, the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Polygon ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
+   Scroll down the page to view **_Auth Response_**. Here, you can see the proof, the public signals (used to generate the proof), and the JWZ token. Copy the JWZ token and paste it on the [Uptick ID JWZ Validator](https://jwz.polygonid.me) site. Click **Validate**.
 
    Upon validation, the JWZ token is broken down into three parts: **_Header_**, **_Payload_**, and **_Auth Proof_**.
 
@@ -288,7 +288,7 @@ Some of the content on this page is still to be updated. Please note that the "P
    <img src={useBaseUrl("img/credential-details.png")}  align="center" width="1000" />
    </div>
 
-7. Below the QR code, click the **_Polygon ID_** icon to open your browser wallet. On your wallet, click **Receive** to fetch and save the credential to your wallet.
+7. Below the QR code, click the **_Uptick ID_** icon to open your browser wallet. On your wallet, click **Receive** to fetch and save the credential to your wallet.
 
 <div align="center">
 <img src={useBaseUrl("img/receive-kycage-credential.png")} align="center" width="1000" />

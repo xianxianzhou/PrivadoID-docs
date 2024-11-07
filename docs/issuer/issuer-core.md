@@ -5,7 +5,7 @@ sidebar_label: Overview
 description: Issuer Node Core API description and its components.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials
@@ -17,7 +17,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Issuer Node Core API
 
-The Issuer Node Core API is ideal for users who need multiple identities and for **integrator profiles, who want to create solutions based on Polygon ID functionalities and might be interested in having access to low level information** such as Merkle Trees.
+The Issuer Node Core API is ideal for users who need multiple identities and for **integrator profiles, who want to create solutions based on Uptick ID functionalities and might be interested in having access to low level information** such as Merkle Trees.
 
 <div align="center">
 <img src= {useBaseUrl("img/3001.png")} align="center" />

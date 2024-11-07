@@ -5,7 +5,7 @@ sidebar_label: Credential Wallet
 description: Credential Wallet components and capabilities.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

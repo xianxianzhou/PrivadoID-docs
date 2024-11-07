@@ -5,7 +5,7 @@ sidebar_label: Proof
 description: Functionalities of the Proof interface of the JS SDK.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

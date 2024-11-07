@@ -5,7 +5,7 @@ sidebar_label: Claim
 description: Claim API endpoints and their description.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials
@@ -148,7 +148,7 @@ The Issuer Node responds by sending a response message that contains the Verifia
 
 :::note
 
-In order to communicate with the Polygon ID Wallet App, the Issuer Node must be hosted on a public URL.
+In order to communicate with the Uptick ID Wallet App, the Issuer Node must be hosted on a public URL.
 
 :::
 
@@ -168,7 +168,7 @@ The Issuer Node responds by sending a response message that contains a JSON whic
 
 - `typ` and `type` indicate the way the user's wallet interacts with the Node.
 
-This JSON can then be pasted on a third-party app's interface that supports generating QR codes. Once a QR code is generated, the user can scan it via Polygon ID app on mobile and accept a credential on his/her wallet.
+This JSON can then be pasted on a third-party app's interface that supports generating QR codes. Once a QR code is generated, the user can scan it via Uptick ID app on mobile and accept a credential on his/her wallet.
 
 <a href="https://self-hosted-platform.polygonid.me/#get-/v1/-identifier-/claims/-id-/qrcode" target="_blank">API Reference</a>
 

@@ -5,7 +5,6 @@ sidebar_label: Overview
 description: Definition of an Issuer.
 keywords:
   - docs
-  - polygon id
   - issuer
   - claim
   - verifiable credentials
@@ -38,9 +37,9 @@ There are some different ways one can perform issuer-related actions, that is, m
 
 - Adapting the [JS SDK](/docs/js-sdk/js-sdk-overview.md) to your application that issues credentials.
 
-- Using [SaaS vendors](https://marketplace.polygonid.me/ecosystem) that leverage Polygon ID solutions.
+- Using [SaaS vendors](https://marketplace.polygonid.me/ecosystem) that leverage Uptick ID solutions.
 
-- Making use of Polygon ID smart contracts for [on-chain issuance](/docs/issuer/on-chain-issuer/on-chain-overview.md/).
+- Making use of Uptick ID smart contracts for [on-chain issuance](/docs/issuer/on-chain-issuer/on-chain-overview.md/).
 
 ## Issuer Nodes
 
@@ -62,10 +61,10 @@ There are basically two ways the Issuer Node can be implemented:
 
 ### Issuer Node Core API
 
-The [Issuer Node Core API](issuer-core.md) is ideal for users who need multiple identities and for **integrator profiles, who want to create solutions based on Polygon ID functionalities and might be interested in having access to low-level information** such as Merkle Trees.
+The [Issuer Node Core API](issuer-core.md) is ideal for users who need multiple identities and for **integrator profiles, who want to create solutions based on Uptick ID functionalities and might be interested in having access to low-level information** such as Merkle Trees.
 
 <div align="center">
-<img src= {useBaseUrl("img/3001.png")} align="center" />
+<img src= {useBaseUrl("img/3001.jpeg")} align="center" />
 </div>
 
 ### Issuer Node UI

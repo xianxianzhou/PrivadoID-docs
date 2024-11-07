@@ -5,7 +5,7 @@ sidebar_label: Display method
 description: Display method
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials
@@ -36,14 +36,14 @@ To configure the credential representation on the PolygonID wallet, follow the s
    {
      "title": "KYC Country of Residence",
      "description": "Know Your Customer Verification",
-     "issuerName": "PolygonID Issuer",
+     "issuerName": "UptickID Issuer",
      "titleTextColor": "#f2743a",
      "descriptionTextColor": "#f2743a",
      "issuerTextColor": "#f2743a",
      "backgroundImageUrl": "ipfs://QmecKDMotkM8a6vxw35CB7iHfToBJnzJrPcmA3gHit9jt9",
      "logo": {
        "uri": "ipfs://QmWkSgmHbKRfhndWqHwVgfVpZSrWNiWZMTHb6k5KxY8ySc",
-       "alt": "Logo PolygonID Issuer"
+       "alt": "Logo UptickID Issuer"
      }
    }
    ```
@@ -72,7 +72,7 @@ To configure the credential representation on the PolygonID wallet, follow the s
      }
    }
    ```
-1. Fetch the credential using the PolygonID mobile wallet:
+1. Fetch the credential using the UptickID mobile wallet:
 <div align="center">
     <img src= {useBaseUrl("img/custom-credential.png")} align="center" />
 </div>

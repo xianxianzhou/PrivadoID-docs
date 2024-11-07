@@ -5,7 +5,7 @@ sidebar_label: Get Schemas
 description: Get the schemas from an Iden3MessageEntity.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

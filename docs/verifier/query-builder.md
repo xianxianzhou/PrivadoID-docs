@@ -5,7 +5,7 @@ sidebar_label: Query Builder
 description: Learn how to use the Query Builder.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - ID holder
   - issuer
   - verifier
@@ -23,7 +23,7 @@ keywords:
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The Query Builder, available [here](https://schema-builder.polygonid.me/query-builder), is an intuitive, web-based tool designed to simplify the creation of verification queries. It's particularly useful for verifiers looking to establish specific criteria for identity verification, such as organizational membership or age requirements. By leveraging Polygon ID, the Query Builder offers a secure and efficient method for users to authenticate identities based on these criteria.
+The Query Builder, available [here](https://schema-builder.polygonid.me/query-builder), is an intuitive, web-based tool designed to simplify the creation of verification queries. It's particularly useful for verifiers looking to establish specific criteria for identity verification, such as organizational membership or age requirements. By leveraging Uptick ID, the Query Builder offers a secure and efficient method for users to authenticate identities based on these criteria.
 
 ## Features
 
@@ -213,7 +213,7 @@ For a detailed walkthrough, refer to the provided video illustrating the complet
 
 On-chain verification enables smart contracts to execute logic based on query results. To set this up:
 
-1. **Select the Network:** Choose either Polygon Mainnet or Polygon Origin.
+1. **Select the Network:** Choose either Polygon Mainnet or Uptick Origin.
 2. **Set a Request Id:** This unique ID acts as a key in the contract's state map. It's essential to choose a distinct ID for each request.
 3. **Smart Contract Address:** Input the address of the contract responsible for proof validation and logic execution on the selected network.
 4. **Click the Set Request Button:** This action sends a `Set ZKP Request` transaction.

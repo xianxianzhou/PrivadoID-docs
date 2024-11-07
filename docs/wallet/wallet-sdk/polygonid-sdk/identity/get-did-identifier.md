@@ -5,7 +5,7 @@ sidebar_label: Get DID Identifier
 description: Get DID Identifier function returns an identifier.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

@@ -5,7 +5,7 @@ sidebar_label: Add Profile
 description: Add Profile API.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
@@ -13,7 +13,7 @@ keywords:
   - profile
 ---
 
-This method adds a profile if there isn't already one associated with the identity derived from the private key and stored in the Polygon ID SDK.
+This method adds a profile if there isn't already one associated with the identity derived from the private key and stored in the Uptick ID SDK.
 
 ```dart
   Future<void> addProfile(

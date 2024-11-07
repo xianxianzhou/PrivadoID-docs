@@ -5,7 +5,7 @@ sidebar_label: Request
 description: Learn how to use the Request API.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - ID holder
   - issuer
   - verifier

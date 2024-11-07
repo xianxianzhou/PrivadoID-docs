@@ -5,7 +5,7 @@ sidebar_label: Push Notifications
 description: Implement push notifications on your app.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - wallet
   - push notification
 ---
@@ -16,7 +16,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Currently, to be able to implement a notification flow for a certain app, this app must be registered in the push gateway config. This can result in a centralization point for developers who want to use such feature and some expenses and efforts on support of the current gateway.
 
-For the Polygon ID wallet, this push service is used: [https://push-staging.polygonid.com/api/v1](https://push-staging.polygonid.com/api/v1).
+For the Uptick ID wallet, this push service is used: [https://push-staging.polygonid.com/api/v1](https://push-staging.polygonid.com/api/v1).
 
 Current notification flow:
 

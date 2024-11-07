@@ -2,10 +2,10 @@
 id: update-interaction
 title: Update Interaction
 sidebar_label: Update Interaction
-description: "Update the states of an InteractionBaseEntity in the Polygon ID SDK."
+description: "Update the states of an InteractionBaseEntity in the Uptick ID SDK."
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
@@ -14,7 +14,7 @@ keywords:
   - Interaction Base Entity
 ---
 
-Update the states of an `InteractionBaseEntity` in the Polygon ID SDK.
+Update the states of an `InteractionBaseEntity` in the Uptick ID SDK.
 
 ```dart
 Future<InteractionBaseEntity> updateInteraction({

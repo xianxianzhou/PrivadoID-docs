@@ -61,16 +61,16 @@ module.exports = {
       defaultLanguage: "javascript",
       additionalLanguages: ["solidity"],
     },
-    // algolia: {
-    //   // need to update this
-    //   indexName: "devs-polygonid",
-    //   appId: "VHJ21ILMOQ",
-    //   apiKey: process.env.ALGOLIA_API_KEY,
-    //   contextualSearch: true,
-    //   algoliaOptions: {
-    //     attributesToSnippet: ["content:20"],
-    //   },
-    // },
+    algolia: {
+      // need to update this
+      indexName: "did-uptick",
+      appId: "W3SXT7BOHG",
+      apiKey: process.env.ALGOLIA_API_KEY,
+      contextualSearch: true,
+      algoliaOptions: {
+        attributesToSnippet: ["content:20"],
+      },
+    },
     navbar: {
       hideOnScroll: true,
       logo: {
@@ -157,8 +157,8 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/UptickNetwork/PrivadoID-docs/tree/uptick_chain",
           path: "docs",
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
           remarkPlugins: [math],
           rehypePlugins: [[katex, { strict: false, throwOnError: true, globalGroup: true }]],
         },

@@ -5,7 +5,7 @@ sidebar_label: Setup Guide
 description: Learn how to set up an Issuer UI API and a user interface.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials
@@ -17,7 +17,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This article details the steps to achieve full integration of the Issuer Node with the Polygon ID APIs, as well as instructs on how to set up an intuitive user interface to manage credentials.
+This article details the steps to achieve full integration of the Issuer Node with the Uptick ID APIs, as well as instructs on how to set up an intuitive user interface to manage credentials.
 
 :::caution
 

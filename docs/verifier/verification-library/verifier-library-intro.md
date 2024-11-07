@@ -5,7 +5,7 @@ sidebar_label: Introduction
 description: Verifier workflow and libraries.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - ID holder
   - issuer
   - verifier
@@ -33,7 +33,7 @@ At its core, every off-chain interaction between a Verifier and a user's Wallet 
 
 Assume that the request is: "Are you over 18 years old?". The Verifier _never gets access to any of the user's credentials_. Instead, the Verifier receives a cryptographic proof which, on verification, provides an answer "yes" or "no" to the previous question.
 
-This section provides all the elements needed to integrate off-chain verification with Polygon ID.
+This section provides all the elements needed to integrate off-chain verification with Uptick ID.
 
 ## Libraries
 

@@ -11,12 +11,12 @@ keywords:
   - ngrok
   - local tunnel
   - mobile app
-  - Polygon ID
+  - uptick id
 ---
 
 ## Question
 
-How can I solve the error occurring when the Polygon ID mobile app scans a QR code with a callback URL that is not properly configured (typically using "localhost")?
+How can I solve the error occurring when the Uptick ID mobile app scans a QR code with a callback URL that is not properly configured (typically using "localhost")?
 
 ## Answer
 
@@ -80,7 +80,7 @@ This issue arises because the "localhost" address in the QR code's callback URL 
 
 ### Final Steps
 
-After setting up ngrok or local tunnel and obtaining a public URL, ensure this URL is correctly integrated into the QR code generation process for the callback URL. This configuration allows the Polygon ID mobile app to successfully communicate with your issuer node API over the internet.
+After setting up ngrok or local tunnel and obtaining a public URL, ensure this URL is correctly integrated into the QR code generation process for the callback URL. This configuration allows the Uptick ID mobile app to successfully communicate with your issuer node API over the internet.
 
 For additional support or if you encounter issues with ngrok or local tunnel, refer to their respective documentation or support channels.
 

@@ -5,7 +5,7 @@ sidebar_label: Identity Wallet
 description: Identity Wallet components and capabilities.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

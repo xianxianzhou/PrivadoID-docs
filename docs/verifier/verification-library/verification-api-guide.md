@@ -5,7 +5,7 @@ sidebar_label: Verification
 description: Learn how to verify proofs using the API.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - ID holder
   - issuer
   - verifier
@@ -105,8 +105,8 @@ Eventually, it returns an instance of a Verifier. To set up a verifier, differen
   Path to the circuit file is constructed from `${circuitsDir}/${circuitId}/verification_key.json`,
 - hierarchical structure for files in circuits folder is mandatory, e.g. --circuits -----circuitId ---------file
 - `ethURL` is the URL of your RPC node provider.
-- `contractAddress` is the address of the identity state Smart Contract. On Polygon Origin, it is 0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124.
-- `resolverPrefix` is the prefix of the resolver. For Polygon Origin it is `"polygon:Origin"`.
+- `contractAddress` is the address of the identity state Smart Contract. On Uptick Origin, it is 0x1a4cC30f2aA0377b0c3bc9848766D90cb4404124.
+- `resolverPrefix` is the prefix of the resolver. For Uptick Origin it is `"polygon:Origin"`.
 - `ipfsGatewayURL` can be your IPFS gateway or public one. You can path your loader or IPFS node also.
 
 ## Execute the verification

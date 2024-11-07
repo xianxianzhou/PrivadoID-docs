@@ -5,7 +5,7 @@ sidebar_label: Create Custom Schemas
 description: Learn how to create custom schemas manually.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials
@@ -18,7 +18,7 @@ keywords:
 
 :::info
 
-Polygon ID offers an intuitive, user-friendly interface to create schemas: the Schema Builder. [<ins>Here</ins>](schema-builder.md) you can find a tutorial for this tool. You can also access it on <ins>[https://schema-builder.polygonid.me/](https://schema-builder.polygonid.me/)</ins>.
+Uptick ID offers an intuitive, user-friendly interface to create schemas: the Schema Builder. [<ins>Here</ins>](schema-builder.md) you can find a tutorial for this tool. You can also access it on <ins>[https://schema-builder.polygonid.me/](https://schema-builder.polygonid.me/)</ins>.
 
 :::
 

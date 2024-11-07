@@ -5,7 +5,7 @@ sidebar_label: Fetch and Save
 description: An Integrator can fetch credentials stored on an Issuer and then save them in his/her wallet.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier

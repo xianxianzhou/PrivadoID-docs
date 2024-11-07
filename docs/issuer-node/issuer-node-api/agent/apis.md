@@ -5,7 +5,7 @@ sidebar_label: Agent
 description: Agent API endpoints and their description.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials

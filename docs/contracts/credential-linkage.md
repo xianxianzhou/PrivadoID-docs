@@ -5,7 +5,7 @@ sidebar_label: Credential Linkage
 description: Description of the relationships between credentials and issuers.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - anchoring
   - credential
   - linkage

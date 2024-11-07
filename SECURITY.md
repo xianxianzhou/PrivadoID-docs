@@ -1,4 +1,4 @@
-# Polygon Technology Security Information
+# Uptick Technology Security Information
 
 ## Link to vulnerability disclosure details (Bug Bounty).
 - Websites and Applications: https://hackerone.com/polygon-technology
@@ -7,10 +7,10 @@
 ## Languages that our team speaks and understands.
 Preferred-Languages: en
 
-## Security-related job openings at Polygon.
+## Security-related job openings at Uptick.
 https://polygon.technology/careers
 
-## Polygon security contact details.
+## Uptick security contact details.
 security@polygon.technology
 
 ## The URL for accessing the security.txt file.

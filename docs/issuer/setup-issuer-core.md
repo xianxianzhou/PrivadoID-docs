@@ -5,7 +5,7 @@ sidebar_label: Setup Guide
 description: Learn how to set up an Issuer Core API.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - issuer node
   - claim
   - verifiable credentials

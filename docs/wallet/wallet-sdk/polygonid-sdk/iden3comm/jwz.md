@@ -5,7 +5,7 @@ sidebar_label: JWZ
 description: JSON Web Zero-knowledge (JWZ) is an open standard for representing messages proven with zero-knowledge technology.
 keywords:
   - docs
-  - polygon id
+  - uptick id
   - holder
   - issuer
   - verifier
