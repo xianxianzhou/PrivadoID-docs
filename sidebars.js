@@ -155,43 +155,7 @@ module.exports = {
       collapsed: true,
       items: [
         "wallet/wallet-overview",
-        {
-          type: "category",
-          label: "Wallet SDK",
-          link: {
-            type: "generated-index",
-          },
-          collapsed: true,
-          items: [
-            {
-              type: "category",
-              label: "Flutter SDK",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "wallet/wallet-sdk/polygonid-sdk/polygonid-sdk-overview",
-                "wallet/wallet-sdk/flutter-sdk/build-app-with-flutter-sdk",
-                "wallet/wallet-sdk/polygonid-sdk/polygonid-sdk-plugin",
-                "wallet/wallet-sdk/polygonid-sdk/example-app"
-              ]
-            },
-            {
-              type: "category",
-              label: "Android SDK",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "wallet/wallet-sdk/android-sdk/install-android-sdk",
-                "wallet/wallet-sdk/android-sdk/example-app"
-              ]
-            },
-          ]
-        },
-        {
+		{
           type: "category",
           label: "Wallet APIs",
           link: {
@@ -366,6 +330,6 @@ module.exports = {
       ],
     },
     "smart-contracts",
-    "releases"
+   
   ],
 }

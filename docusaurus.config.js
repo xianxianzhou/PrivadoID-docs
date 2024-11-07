@@ -29,14 +29,7 @@ module.exports = {
     },
   },
   themeConfig: {
-    announcementBar: {
-      id: "learn_more",
-      content:
-        'Uptick ID spins out as Privado ID.<a class="announcement-link" rel="noopener noreferrer" href="https://www.privado.id/blog/introducing-privado-id-moving-beyond-polygon-to-deliver-independent-privacy-preserving-identity-solutions">Official Announcement</a>',
-      backgroundColor: "#20232a",
-      textColor: "#131313",
-      isCloseable: false,
-    },
+ 
     metadata: [
       {
         name: "description",
@@ -97,10 +90,7 @@ module.exports = {
               href: "/docs/web-wallet",
               label: "Web Wallet",
             },
-            {
-              href: "/docs/wallet/wallet-overview/",
-              label: "Wallet",
-            },
+           
             {
               href: "/docs/js-sdk/js-sdk-overview/",
               label: "JS-SDK",

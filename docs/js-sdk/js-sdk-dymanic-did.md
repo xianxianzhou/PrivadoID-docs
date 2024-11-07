@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 2. Register you network for PolygonID did method in the following way:
 
 ```javascript
-import { core } from "@0xpolygonid/js-sdk";
+import { core } from "@uptickproject/js-sdk";
 
 core.registerDidMethodNetwork({
   method: core.DidMethod.PolygonId,

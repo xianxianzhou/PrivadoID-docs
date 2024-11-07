@@ -88,8 +88,8 @@ export const contentData = {
       title: "Identity wallet",
       cardLink: "/docs/wallet/wallet-overview",
       blockInfo: [
-        "User controls their data,",
-        "Data management,",
+		"User controls their data,",
+		"Data management,",
         "Wallet integration,",
         "Public and private profiles,",
         "Switch networks,",
@@ -97,20 +97,13 @@ export const contentData = {
         "Reference application.",
       ],
       tutorialsInfo: [
-        {
-          title: "Build an app with Flutter SDK",
-          link: "/docs/wallet/wallet-sdk/flutter-sdk/build-app-with-flutter-sdk",
-        },
-        {
-          title: "Build an app with Android SDK",
-          link: "/docs/wallet/wallet-sdk/android-sdk/install-android-sdk",
-        },
+        
         {
           title: "Wallet APIs",
           link: "/docs/category/wallet-apis",
         },
         {
-          title: "Polygon ID Wallet app: SDK reference implementation",
+          title: "Uptick ID Wallet app: SDK reference implementation",
           link: "/docs/wallet/wallet-sdk/polygonid-app",
         },
         {

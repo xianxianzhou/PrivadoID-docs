@@ -64,7 +64,7 @@ You can install project dependencies using either one of the following ways:
 - Using **npm**:
 
 ```bash
-npm install @0xpolygonid/js-sdk
+npm install @uptickproject/js-sdk
 ```
 
 - For browser-based applications, you can use the following script tag, adding import to your **index.html** file after `npm run build`:
